@@ -142,6 +142,15 @@ address {
 
 .zone {
     background-color: #2e2f42;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100vp;
+    background-image: linear-gradient(
+        to right,
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office\ 1.jpg);
     padding: 188px 0;
 }
 
