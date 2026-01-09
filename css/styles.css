@@ -92,10 +92,6 @@ address {
     display: flex;
 }
 
-.text-nav .logo {
-    padding: 24px 0;
-}
-
 .nav-link {
     display: block;
     padding: 24px 0;
@@ -122,9 +118,6 @@ address {
     height: 4px;
 }
 
-.header-menu-list {
-    padding: 24px 0;
-}
 
 .text-nav .nav-link:hover, 
 .text-nav .nav-link:focus,
@@ -154,7 +147,6 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding: 24px 0;
     }
 
 .text-address .contact-link:hover,
