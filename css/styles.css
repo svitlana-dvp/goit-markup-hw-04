@@ -263,6 +263,7 @@ address {
     text-align: center;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-bottom: 8px;
 }
 
 .weare {
@@ -279,6 +280,36 @@ address {
     gap: 24px;
 }
 
+.social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 24px;
+    width: 232px;
+    height: 40px;
+}
+
+.social-links .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-links .social:hover, 
+.social-links .social:focus {
+    background-color: #404bbf;
+}
+
+.social-card {
+    fill: #f4f4fd;
+}
 .title-weare {
     font-weight: 700;
     font-size: 36px;
@@ -291,6 +322,9 @@ address {
 }
 
 .list-weare {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background-color: #ffffff;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
@@ -303,7 +337,6 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-bottom: 8px;
 }
 
 .text {
@@ -327,6 +360,11 @@ address {
     flex-basis: content;
 }
 
+.product-list:hover,
+.product-list:focus {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
+}
 
 .text-product-box {
     padding: 32px 16px;
