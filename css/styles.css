@@ -236,6 +236,18 @@ address {
     width: calc((100% - 72px) / 4);
 }
 
+.card-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background-color: #f4f4fd;
+}
+
 .text-box {
     padding: 32px 16px;
 }
